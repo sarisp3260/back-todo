@@ -1,0 +1,25 @@
+###
+POST http://localhost:9000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Mr. Pancake",
+    "password": "mpancake123"
+}
+
+###
+GET http://localhost:9000/api/users HTTP/1.1
+
+###
+GET http://localhost:9000/api/users/624ba3b3a75395c3959dea50 HTTP/1.1
+
+
+###
+PUT http://localhost:9000/api/users/624ba5034c31572a04e0e687 HTTP/1.1
+
+{
+    "name": "Empanadita Gringa",
+    "password": "egringa123"
+}
+###
+DELETE  http://localhost:9000/api/users/624ba5034c31572a04e0e687 HTTP/1.1
