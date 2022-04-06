@@ -1,6 +1,7 @@
 # Back-end Repository
 
-This repository was created for the purpose of creating a back end api service. 
+This repository was created for the purpose of creating a back end api service for the aplication Todo list.
+In addition the database was created in Mongobd using a mongo service call Atlas which facilitated the visualization of the database. 
 
 ## Technologies
 
